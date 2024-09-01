@@ -21,9 +21,10 @@ type UserData = {
   [USER_DATA.Age]: string;
 };
 
-// eslint-disable-next-line no-unused-vars
 type UserDataChangeHandler = (
+  // eslint-disable-next-line no-unused-vars
   _event: ChangeEvent<HTMLInputElement>,
+  // eslint-disable-next-line no-unused-vars
   _property: USER_DATA,
 ) => void;
 
